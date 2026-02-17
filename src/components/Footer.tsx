@@ -1,12 +1,11 @@
-import { Mail, Linkedin, Twitter, Github } from 'lucide-react';
+import { Mail, Linkedin, Instagram, Github } from 'lucide-react';
 
 export default function Footer() {
-  const showSocialIcons = true; // 🔥 Toggle this to true when ready
-
+  const showSocialIcons = true;
   const socialLinks = [
     { Icon: Linkedin, name: 'LinkedIn', url: 'https://www.linkedin.com/in/orchestrix-technologies-81a8843b1/' },
-    { Icon: Twitter, name: 'Twitter', url: 'https://twitter.com/orchestrix' },
-    { Icon: Github, name: 'GitHub', url: 'https://github.com/orchestrix' }
+    { Icon: Instagram, name: 'Instagram', url: 'https://www.instagram.com/orchestrix_tech/' },
+    { Icon: Github, name: 'GitHub', url: 'https://github.com/orchestrix-aia' }
   ];
 
   return (
