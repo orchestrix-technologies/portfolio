@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <footer id="contact" className="pt-12 sm:pt-16 md:pt-20 pb-8 sm:pb-10">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="card glass-border p-6 sm:p-8 md:p-10 mb-8 sm:mb-10">
+        <div className="card glass-border p-5 sm:p-8 md:p-10 mb-8 sm:mb-10">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6 sm:gap-8">
             <div className="space-y-2 sm:space-y-3">
               <p className="text-xs sm:text-sm uppercase tracking-[0.2em] text-amber-200">

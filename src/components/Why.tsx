@@ -20,7 +20,7 @@ export default function Why() {
         </div>
 
         <div className="mt-16 grid lg:grid-cols-2 gap-12 items-center">
-          <div className="relative aspect-square max-w-sm">
+          <div className="relative aspect-square w-full sm:max-w-sm mx-auto">
             <div className="absolute inset-0 border border-white/5 architectural-grid" />
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-cyan-500/10 rounded-full blur-[100px]" />
             <div className="relative h-full w-full flex items-center justify-center border border-white/10 group overflow-hidden">

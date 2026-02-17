@@ -27,7 +27,7 @@ export default function Hero() {
         <div className="font-mono text-[10px] text-slate-600">34.0522° N, 118.2437° W // ORX_PRIMARY</div>
       </div>
 
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-12 md:px-24">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-6 sm:px-12 md:px-24">
         <div className="max-w-4xl space-y-12">
           {/* Badge */}
           <div className="flex items-center gap-3 opacity-0 animate-[rise_1s_cubic-bezier(0.16,1,0.3,1)_0.2s_forwards]">
@@ -37,7 +37,7 @@ export default function Hero() {
 
           {/* Asymmetric Header */}
           <div className="space-y-4">
-            <h1 className="text-7xl sm:text-8xl md:text-9xl font-black text-white tracking-tighter leading-none animate-reveal">
+            <h1 className="text-5xl sm:text-7xl md:text-9xl font-black text-white tracking-tighter leading-none animate-reveal">
               OrchestriX.
             </h1>
             <div className="flex items-center gap-6 opacity-0 animate-[rise_1.2s_cubic-bezier(0.16,1,0.3,1)_0.6s_forwards]">

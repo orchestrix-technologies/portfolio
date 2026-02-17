@@ -81,14 +81,14 @@ export default function About() {
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl animate-pulse" style={{ animationDuration: '6s', animationDelay: '1s' }} />
       </div>
 
-      <div className="max-w-6xl mx-auto px-12 relative z-10">
+      <div className="max-w-6xl mx-auto px-6 sm:px-12 relative z-10">
         <div className="grid lg:grid-cols-2 gap-20 items-end">
           <div className="space-y-12">
             <div className="flex items-center gap-4 text-[10px] font-bold uppercase tracking-[0.4em] text-cyan-500">
               <span className="w-12 h-px bg-cyan-500/40" />
               Architectural Context
             </div>
-            <h2 className="text-5xl md:text-7xl font-black text-white tracking-tighter leading-none">
+            <h2 className="text-4xl sm:text-5xl md:text-7xl font-black text-white tracking-tighter leading-none">
               Engineers who <br />
               <span className="text-slate-500 italic">orchestrate.</span>
             </h2>
